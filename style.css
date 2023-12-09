@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;}
+
+.movieList {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movieCard {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movieImage {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.movieTitle {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.movieProd {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+nav {
+    background-color: #333; 
+    padding: 15px;
+    text-align: center;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+
+.gbl{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero{
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #ddd;
+  }
+  
+  .hero h1 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  
